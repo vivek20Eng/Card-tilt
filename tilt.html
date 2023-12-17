@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3d tilt effect</title>
+    <link rel="stylesheet"href="tilt.css">
+</head>
+<body>
+    <div id="section">
+    <div class="container" >
+        <div class="box "id="box">
+            <h2 class="name">HELLO </h2>
+            <a href="#"class="buy">WELCOME</a>
+            <div id="circle" class="circle"></div>
+            <img src="pic.png"  class="product">
+
+        </div>
+        <h6>VIVEK</h6>
+    </div>
+</div>
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".box"), {
+		max: 25,
+        glare : true,
+		speed: 400
+	});
+    </script>
+</body>
+</html>
