@@ -3,7 +3,7 @@
 This project demonstrates how to create a card tilt effect with a 3D perspective using HTML, CSS, and JavaScript.
 
 ## Preview
-## [LIVE 👁️](https://card-tilt-3d.vercel.app/) 
+## [LIVE 👁️](https://card-tilt.vercel.app/) 
 
 ## Demo
 [![DEMO](https://img.youtube.com/vi/NWF-0nPqmBM/0.jpg)](https://www.youtube.com/watch?v=NWF-0nPqmBM)
